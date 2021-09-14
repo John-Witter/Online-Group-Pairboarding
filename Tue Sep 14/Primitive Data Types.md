@@ -35,8 +35,50 @@
 2. sets
 2. dictionaries
 
+</br>
+</br>
+</br>
+
 
 ## How to get built-in methods on these?
 
 * primitive wrapper objects perform requested operations and then return the new primitive result
 * low-level ```number``` and primitive ```Number```
+
+</br>
+</br>
+</br>
+
+## Variable Declaration and Reassignment
+
+```javascript
+let a = 3 // 3
+let b = a // 3
+console.log(a === b) // true
+a = true // true
+console.log(a === b) // false
+console.log(a) // true
+console.log(b) // 3
+
+// This is a consideration most commonly needed while utilizing
+//  intermediate variables!
+```
+
+
+## String Concatenation
+
+```javascript
+let alpha = 'abcdefg'
+let finalStr = ''
+
+for (let i = 0; i < 7; i++) {
+    finalStr += alpha[i]
+}
+
+return finalStr
+```
+
+</br>
+</br>
+</br>
+
