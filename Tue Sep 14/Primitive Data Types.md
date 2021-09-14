@@ -67,6 +67,7 @@ console.log(b) // 3
 
 ## String Concatenation
 
+* strings are imutable in JS
 ```javascript
 let alpha = 'abcdefg'
 let finalStr = ''
